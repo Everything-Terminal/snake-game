@@ -23,92 +23,38 @@ A classic Snake game built in C with ncurses, featuring colorful graphics, obsta
 # Ubuntu: sudo apt install libncurses-dev
 ```
 
+## Compile the game
 ```
-
-```
-
-# Compile the game
-
-```
-
-```
-
 gcc snake.c -o snake -lncurses
-
 ```
-
+## Run the game
 ```
-
-# Run the game
-
-```
-
-```
-
 ./snake
-
 ```
-
-```
-
 ## 🎮 Controls
-
 ```
-
+Key        Action
+W / ↑      Move Up
+S / ↓      Move Down
+A / ←      Move Left
+D / →      Move Right
+P          Pause/Unpause
+Q          Quit Game
 ```
-
-Key
-Action
-W / ↑
-Move Up
-S / ↓
-Move Down
-A / ←
-Move Left
-D / →
-Move Right
-P
-Pause/Unpause
-Q
-Quit Game
-
+## 🎯 Game Elements
 ```
-
-```
-
-🎯 Game Elements
-
-```
-
-```
-
 O - Snake head (green)
 o - Snake body (green)
-
-- - Regular food (red) - +10 points
-    $ - Golden food (yellow) - +50 points, grows snake by 3
-
+* Regular food (red) - +10 points
+$ - Golden food (yellow) - +50 points, grows snake by 3
 # - Walls (cyan) - Snake wraps around
-
 % - Obstacles (magenta) - Instant death on collision
-
 ```
-
+## 🛠️ Technologies
 ```
-
-🛠️ Technologies
-
-```
-
-```
-
 Language: C (C99 standard)
 Library: ncurses (terminal UI)
 Compiler: GCC
-
 ```
-
-```
-
-📝 License
+## 📝 License
 MIT License - feel free to use and modify!
