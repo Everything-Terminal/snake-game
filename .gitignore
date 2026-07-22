@@ -1,0 +1,19 @@
+# Compiled binaries
+snake
+*.o
+*.exe
+
+# Save files
+*.dat
+.snake_highscore
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
